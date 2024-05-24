@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to Airbnb Clone Frontend
+
+This repository contains the frontend code for an Airbnb clone, built using React and Redux. The backend API is built using Django Rest Framework (DRF) and is located in a separate repository.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the frontend repository: `git clone https://github.com/bryt-frost/airbnb-frontend.git`
+2. Install dependencies: `npm install`, `yarn install`, or `pnpm install`
+3. Start the development server: `npm start`, `yarn start`, or `pnpm start`
+4. Clone the backend repository: `git clone https://github.com/bryt-frost/airbnb-backend.git`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+5. Start the backend server: `python manage.py runserver`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- User authentication and authorization
+- Search and filter listings by location, price, and amenities
+- Listing details page with photos, description, and booking information
+- Booking 
+- Reservations
+- Responsive design for mobile and tablet devices
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **Frontend:** Nextjs React, Redux, TypeScript
+- **Backend:** Django, Django Rest Framework (DRF)
+- **Database:** SQLite
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgments
+
+This project was inspired by Airbnb and uses some of their design elements and functionality. However, it is not affiliated with Airbnb in any way.
+
+## Contact
+
+If you have any questions or need help with the project, please contact [insert your name and email address].
